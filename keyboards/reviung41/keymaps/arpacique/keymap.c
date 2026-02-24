@@ -59,7 +59,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_ARROW] = LAYOUT_reviung41(
     _______, _______, _______, KC_UP  , C(KC_HOME), KC_PGUP,          _______, KC_7, KC_8, KC_9,  KC_SLASH,    KC_BSPC,
     _______, KC_HOME, KC_LEFT, KC_DOWN, KC_RGHT,    KC_END,           _______, KC_4, KC_5, KC_6,  KC_ASTERISK, KC_EQUAL,
-    _______, _______, _______, _______, C(KC_END),  KC_PGDN,          _______, KC_1, KC_2, KC_3,  KC_MINUS,    KC_PLUS,
+    _______, _______, _______, _______, C(KC_END),  KC_PGDN,          KC_0,    KC_1, KC_2, KC_3,  KC_MINUS,    KC_PLUS,
                                        _______,   _______,  _______,  KC_0,  KC_DOT
   )
 };
